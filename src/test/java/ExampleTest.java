@@ -1,4 +1,5 @@
 import org.junit.Test;
+import.org.junit.Assert;
 
 public class ExampleTest {
 
@@ -9,7 +10,7 @@ public class ExampleTest {
 	}
 	
 	@Test
-	public void verifySomeRandomMethod() {
+	public void verifySomeRandomMethod2() {
 		boolean a = false;
 		assertTrue(a);
 	}
