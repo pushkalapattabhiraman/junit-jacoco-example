@@ -7,4 +7,10 @@ public class ExampleTest {
 		Example junitTest = new Example();
 		junitTest.someRandomMethod(11, 12);
 	}
+	
+	@Test
+	public void verifySomeRandomMethod() {
+		boolean a = false;
+		assertTrue(a);
+	}
 }
